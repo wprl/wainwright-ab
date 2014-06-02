@@ -1,0 +1,11 @@
+{
+  "name": "wintersmith-ab",
+  "version": "0.1.0",
+  "description": "Create variations of wintersmith pages for A/B testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Riley-Land",
+  "license": "MIT"
+}
