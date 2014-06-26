@@ -1,11 +1,23 @@
 {
-  "name": "wintersmith-ab",
+  "name": "wainwright-ab",
   "version": "0.1.0",
-  "description": "Create variations of wintersmith pages for A/B testing.",
+  "description": "A/B test wainwright pages.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "gulp",
+    "wainwright",
+    "A/B test"
+  ],
   "author": "William Riley-Land",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "deco": "^0.12.0",
+    "event-stream": "^3.1.5"
+  },
+  "peerDependencies": {
+    "wainwright": "^0.4.3"
+  }
 }
